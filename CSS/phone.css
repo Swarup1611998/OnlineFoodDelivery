@@ -1,0 +1,98 @@
+/* Navigation section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: .6rem;
+    margin: 10px;
+}
+
+ /* logo */
+ #logo img{
+  margin-right: 17rem;
+  height: 40px;
+ }
+ 
+ /* search bar */
+ #search input{
+  height: 20px;
+  margin-left: 40px
+ }
+ #search button{
+  margin-left: 9.9rem;
+ }
+/* home Section */
+#home{
+    height: 400px;
+    padding: 3px 6px;
+    
+ }
+ #home::before{
+     height: 604px;
+ }
+ 
+ #home p{
+  font-size: 1.4rem;
+  margin-bottom: 90px;
+  color: black;
+ }
+ /* services section */
+#services{
+  flex-direction: column;
+}
+#services-container::before{
+  height: 87.2rem;
+}
+#services .box{
+  margin: 35px 50px;
+}
+#services .box img{
+  height: 75px;
+}
+ /* food section */
+ #foods{
+   flex-direction: column;
+ }
+ #food-section{
+  height: auto;
+ }
+ #food-section::before{
+   height: 73.5rem;
+ }
+
+#foods .food-items{
+  margin: 15px 90px;
+}
+#foods .food-items img{
+  height:80px;
+}
+/* contact us section */
+#contact-box form{
+  width:50%;
+} 
+
+/* footer section */
+#footer{
+  display: flex;
+  height: auto;
+}
+#footer img{
+  height: 25px;
+}
+/* Utility classes */
+
+.h-primary{
+ font-size: 20px;
+ margin-top: 20px;
+}
+.center{
+  text-align: center;
+  justify-content: center;
+}
+.btn{
+  font-size: 13px;
+  padding: 4px 6px;
+}
+.h-secondary{
+  font-size: 20px;
+}
